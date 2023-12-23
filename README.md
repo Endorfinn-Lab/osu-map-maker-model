@@ -1,2 +1,3 @@
 # osu-map-maker-model
-arsip juga buat belajar
+
+https://github.com/kotritrona/osumapper
