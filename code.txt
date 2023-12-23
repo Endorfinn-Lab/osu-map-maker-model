@@ -1,2 +1,6 @@
 !curl [raw github url to "saved_rhythm_model"] > models/default/rhythm_model
 !curl [raw github url to "flow_dataset.npz"] > models/default/flow_dataset.npz
+
+# or try this
+
+!curl -o /content/osumapper/v7.0/models/default/rhythm_model githubURL
