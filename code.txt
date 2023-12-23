@@ -1,11 +1,6 @@
-!curl [raw github url to "saved_rhythm_model"] > models/default/rhythm_model
-!curl [raw github url to "flow_dataset.npz"] > models/default/flow_dataset.npz
+!curl -L githubURL -o models/default/rhythm_model
+!curl -L githubURL -o models/default/mania_pattern_dataset.npz
 
-# or 
-
-!curl -o /content/osumapper/v7.0/models/default/rhythm_model githubURL
-
-# or
-
-!cp saved_rhythm_model models/default/rhythm_model
-!cp mania_pattern_dataset.npz models/default/mania_pattern_dataset.npz
+# Example
+!curl -L https://github.com/Endorfinn07/osu-map-maker-model/raw/main/mania/saved_rhythm_model -o models/default/rhythm_model
+!curl -L https://github.com/Endorfinn07/osu-map-maker-model/raw/main/mania/mania_pattern_dataset.npz -o models/default/mania_pattern_dataset.npz
