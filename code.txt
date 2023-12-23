@@ -1,0 +1,2 @@
+!curl [raw github url to "saved_rhythm_model"] > models/default/rhythm_model
+!curl [raw github url to "flow_dataset.npz"] > models/default/flow_dataset.npz
